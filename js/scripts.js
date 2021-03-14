@@ -12,3 +12,21 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $( "#reserveButton" ).click(function(){
+      $("#reserveModal").modal('show');
+  });
+    $( "reserveButton" ).click(function(){
+        $('#reserveModal').modal('hide');
+    });
+});
+
+$(function() {
+    $( "#loginButton" ).click(function() {
+      $("#loginModal").modal('show');
+    });
+    $( "#loginButton" ).click(function() {
+        $("#loginModal").modal('hide');
+    });
+});
